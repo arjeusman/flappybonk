@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flappy Bonk</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5a623;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+            padding: 50px 30px;
+        }
+
+        .game-title {
+            font-size: 64px;
+            font-weight: 900;
+            margin: 0 0 15px;
+            text-shadow: 4px 4px 0px #8a4b08;
+        }
+
+        .description {
+            font-size: 20px;
+            line-height: 1.6;
+            margin: 0 auto 35px;
+            max-width: 550px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 28px;
+            margin: 8px;
+            background: #ffffff;
+            color: #f5a623;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+            border-radius: 8px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            margin-top: 60px;
+            font-size: 14px;
+            opacity: 0.85;
+        }
+
+        @media (max-width: 600px) {
+
+            .game-title {
+                font-size: 44px;
+            }
+
+            .description {
+                font-size: 17px;
+            }
+
+            .container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1 class="game-title">Flappy Bonk</h1>
+
+        <p class="description">
+            Flap your way through obstacles, avoid the bonks,
+            and see how high you can score!
+        </p>
+
+        <div>
+            <a class="button" href="privacy-policy.html">
+                Privacy Policy
+            </a>
+        </div>
+
+        <footer class="footer">
+            &copy; 2026 Luffytaro24. All rights reserved.
+        </footer>
+
+    </main>
+
+</body>
+</html>
